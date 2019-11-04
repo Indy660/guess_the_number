@@ -1,6 +1,7 @@
 body{
     font-family:Segoe UI;
 }
+
 button{
     font-weight:bold;
     color:#6a4399;
@@ -27,6 +28,7 @@ button:active{
     padding:12px;
     display:none;
 }
+
 .indicator{
     background-color: #b170ff;
     display:inline-block;  /*чтобюы помещалось по ширине, иначе во весь div*/
@@ -34,6 +36,7 @@ button:active{
     padding: 10px;
     margin-right: 20px;
 }
+
 .indicator>span{
     font-style:italic;
 }
@@ -48,7 +51,6 @@ button:active{
     width:150px;
 }
 
-
 #guess{
     width:150px;
     font-family:inherit;
@@ -57,6 +59,12 @@ button:active{
     border:none; /* граница: отсутствует */
     outline:none; /* автоматическая обводка: отсутствует*/
     text-align:center;
+}
+
+.newLine {
+    padding: 3px;
+    background-color: aquamarine;
+    width:40px;
 }
 
 .logs{
